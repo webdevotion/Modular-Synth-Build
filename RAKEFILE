@@ -1,0 +1,8 @@
+desc "Run Jekyll locally on localhost"
+
+namespace :jekyll do
+  task :serve do
+    puts "Run Jekyll ..."
+    sh "bundle","exec","jekyll","serve"
+  end
+end 
